@@ -35,7 +35,7 @@
         background-repeat: no-repeat;
         background-position:center;
         background-attachment: fixed;
-
+        
         }
 
       section h2 {
@@ -130,7 +130,16 @@
         
         }
 
-        
+        #portfolio img {
+        margin-left: 0px;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+      }
+      #portfolio :hover img {
+        width: 100%;
+        height: 100%;
+        margin-left: -30px;
+      }
 
 
     </style>
@@ -188,7 +197,7 @@
       <section id="portfolio">
         <h2>Portfolio</h2>
 
-        <div class="w3-row w3-animate-fading">
+        <div class="w3-row w3-animate-opacity">
           <article class="w3-col m4 w3-padding w3-center w3-hover-blue-gray">
             <h1>Horses</h1>
             <img src="assets\css\img\animals-8080446_1280.jpg" alt="" class="w3-image">
